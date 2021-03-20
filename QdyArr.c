@@ -52,7 +52,7 @@ void display(struct Queue q)
 }
 int main()
 {
-    struct Queue q;
+    struct Queue q; // calling var for structure Queue
     Create(&q,5);
 
     Enqueue(&q,10);
